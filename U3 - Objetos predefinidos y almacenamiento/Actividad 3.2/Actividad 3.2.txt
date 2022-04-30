@@ -1,0 +1,19 @@
+Actividad 2: Almacenamiento con Cookies y LocalStore
+
+Esta actividad consiste en probar el almacenamiento con Cookies y LocalStorage. Para ello:
+
+Empezaremos con las Cookies. 
+
+    En la pagina vamos a tener un contador de visitas con un botón para eliminar la cookie y reiniciar el contador.
+    Debemos de crear un código de java script en el que tengamos:
+        Una función para setCookie
+        Una función para getCookie
+        Una función para deleteCookie
+        Al cargarse la pagina se debe de iniciar la cookie, y luego cada vez que entras te sume uno en el contador. 
+        Por ultimo si pulsamos el botón de eliminar cookie, borra la cookie y hace que el contador empiece otra vez.
+
+Realizar el mismo ejercicio con LocalStorage.
+
+    En la pagina vamos a tener un contador de visitas con un botón para reiniciar el contador.
+    Solo tenemos la función de eliminarLocalStorage.
+    Al cargar la ventana inicias el contador a 0 si no esta establecido, y si ya lo esta, vas añadiendo 1.

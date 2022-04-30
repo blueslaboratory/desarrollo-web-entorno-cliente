@@ -1,0 +1,17 @@
+Prepara el Entorno de desarrollo para el módulo
+La actividad consiste en seguir una serie de pasos para, tras realizar las instalaciones necesarias, empezar nuestra andadura en git y github:
+
+    Crear un repositorio remoto en github.
+        El nombre debe ser NombreAlumno_PruebaGit
+        Debe ser privado
+        ¿Tenemos algún archivo? ¿Y alguna rama de trabajo?
+    Clonar dicho repositorio remoto a nivel local gracias a Visual Studio Code y su control de código fuente. 
+    Crear un archivo gracias a Virtual Studio Code.
+    Añadir en dicho archivo, un pequeño codigo html con un código de javascript.
+    La funcionalidad del archivo queda en el alumno. (Por ahora)
+     “Guardar los cambios” a nivel local. (Stash)
+    Publicar la rama. ¿Qué rama esta siendo utilizada?
+    Publicar el archivo en el repositorio de GitHub.
+    Comprobar en GitHub si a nivel remoto tenemos cambios.
+    Crear una nueva rama en local con una modificación del código y subirla al remoto.
+    Fusionar las ramas en la rama principal.

@@ -1,0 +1,40 @@
+<!-- para autogenerar el html poner ! -->
+<!-- 15/04/2022-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookies</title>
+    <script type="text/javascript" src="cookies.js"></script>
+
+</head>
+<body>
+    <h1>¡Cookies!</h1>
+    <!-- Cookies -->
+    <h2>Contador de visitas con Cookies:</h2>
+    <!-- 
+    <script language="javascript">DisplayVisits();</script> 
+    -->
+    <script lang="JavaScript">
+        document.write("Esta pagina tiene <b>" + amt() + " visitas.");
+    </script>
+
+    <br/><br/>
+    <input type="button" onclick="deleteCookie('count')" value="Resetear Cookie Counter"/>
+    <!-- 
+    <input type="button" onclick="DeleteCookie('username')" value="Reset Cookie Username"/>
+    -->
+
+    <!-- LocalStorage -->
+    <!-- por alguna razon no consigo que vayan los 2 a la vez, no resetea este-->
+    <!-- 
+    <h2>Contador de visitas con LocalStorage:<h2>
+    <div class="website-counter"></div>
+    <script src="localstorage.js"></script>
+    <button id="reset">Reset</button> 
+    -->
+</body>
+</html>

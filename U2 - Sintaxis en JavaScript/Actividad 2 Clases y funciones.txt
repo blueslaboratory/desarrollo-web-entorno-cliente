@@ -1,0 +1,33 @@
+Actividad 2: Clases y funciones. Ampliado
+
+Esta tarea consiste en realizar una actividad con clases y funciones:
+
+Debemos de disponer de 2 clases diferentes.
+
+    La clase "Alumno" con:
+        Atributos
+            id
+            nombre
+            notaMedia
+        Funciones
+            consultarNota
+            cambiarNotaMedia
+    La clase "Colegio" con:
+        Atributos
+            nombre
+            nAlumnos
+            Crea un array para almacenar a los alumnos
+        Debe crea todos los alumnos hasta el nAlumnos con una estructura de repetición.
+        Funciones:
+            consultarNotaMedia: Recibe el alumno en cuestión y consulta la nota media del alumno
+            cambiarNotaMedia: Recibe el alumno en cuestión y la nota a poner y cambia la nota media del alumno 
+    La función main que:
+        Crea un nuevo Colegio con los Alumnos
+        Solicita el nombre del alumno a crear y su nota media
+            El id del alumno se va poniendo automáticamente.
+        Por ultimo solicita al usuario que alumno quieres consultar para comprobar el funcionamiento.
+
+Ampliación a la actividad 2:
+
+    Se debe ampliar y mejorar el código descrito en la actividad 2 en una segunda rama de trabajo.
+    Se reconocerá a originalididad a la hora de otorgar nuevas funcionalidades.

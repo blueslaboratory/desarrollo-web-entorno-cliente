@@ -1,0 +1,10 @@
+Actividad 2: Elementos del DOM
+
+La tarea conste en realizar el código necesario para que:
+
+Se cree dinámicamente una tabla de 100x100. Cada elemento de la tabla tendrá un número único, que empezará en 1 y se irá incrementando de 1 en 1.
+Esta página además tendrá un botón que será “Calcular numero primos”. Este botón hará que todas las celdas de la tabla que tengan números primos se pongan con un fondo amarillo.
+
+Además, tendremos 2 elementos <p> donde deben de aparecer todos los números primos encontrados en uno de ellos y en el otro los números que no son primos. Al hacer clic sobre ellos desaparecerán (se oculten) y al hacer doble clic (lo elimine del DOM). 
+
+También deberá tener un botón “Reaparecer” que hará que aparezcan todos los elementos desaparecidos (pero no los eliminados).

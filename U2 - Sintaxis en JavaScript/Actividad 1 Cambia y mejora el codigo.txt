@@ -1,0 +1,10 @@
+Actividad 1: Cambia y mejora el codigo
+
+La tarea consiste en cambiar y mejorar el código ubicado en el repositorio publico: https://github.com/PabloLeaRui/Unidad1_Actividad1.git
+
+Para ello:
+
+    Clonaremos dicho repositorio a nuestro equipo.
+    Crearemos una nueva rama de trabajo con nuestro nombre para realizar los cambios en el fichero.
+    Haremos los cambios pertinentes para cumplir el enunciado de la practica ubicado en las primeras líneas del archivo .js.
+    Cuando nuestro trabajo, esté realizado, subiremos la rama con el archivo modificado en el repositorio remoto.

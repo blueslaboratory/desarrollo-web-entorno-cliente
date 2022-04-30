@@ -1,0 +1,13 @@
+Actividad 4: Formularios en DWEC Parte 2
+
+Realiza un formulario con dos elementos “select”. Al cambiar el primero, se actualizará el segundo. 
+Al enviar el formulario, se comprobará que ambos han sido marcados.
+Cuando no tengan ninguna selección previa, los “select” mostrarán “Select no seleccionado”.
+Los valores del primer “select” serán “Madrid”, “Cataluña”, “Murcia”.
+Por defecto no habrá ninguno seleccionado.
+
+Los valores del segundo “select” son:
+
+●       Para Madrid: “Madrid Capital”, “Torrelodones”, “Vallecas”.
+●       Para Cataluña: “Barcelona”, “Tarragona”, “Gerona”, "Lérida".
+●       Para Murcia: “Murcia”, “Cabo de Palos”, “Cartagena”. (Aquí saldrá por defecto seleccionado “Cartagena”).

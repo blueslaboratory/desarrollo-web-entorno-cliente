@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tabla_primos.css"/>
+    <script type="text/javascript" src="tabla_primos.js"></script>
+    <title>Tabla primos</title>
+</head>
+
+<body>
+    
+    <div id="resultado"></div>
+
+    <script>
+        crearTabla();
+    </script>
+
+    <input type="button" onclick="pintaColorea()" value="Calcular numeros primos"/>
+    
+    <p>Numeros primos:</p>
+    <script>
+        parrafoPrimos();
+    </script>
+
+    
+    <p>Numeros no primos:</p>
+    <script>
+        parrafoNoPrimos();
+    </script>
+
+    <script>
+        borrarParrafos();
+    </script>
+    
+    <input type="button" onclick="reaparecer()" value="Reaparecer"/>
+
+</body>
+
+</html>

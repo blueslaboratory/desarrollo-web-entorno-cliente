@@ -1,0 +1,74 @@
+<!--
+Validando con JQUERY
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Title of the Document</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js">
+    </script>
+    
+</head>
+
+<body>
+    <form>
+        <p>Enter an email address:</p>
+        <input id='email'>
+        <button type='submit' id='validate'>Validate button</button>
+    </form>
+
+    <div id='result'></div>
+
+    <script>
+
+        function emailDomainCheck(email, domain) {
+            var parts = email.split('@');
+            if (parts.length === 2) {
+                if (parts[1] === domain) {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        function validateDomain(email) {
+            let listaServidores = ["terra.es", "google.com", "marca.es", "yahoo.es"];
+            flag = false;
+
+            for (let i = 0; i < listaServidores.length; i++) {
+                if(emailDomainCheck(email, listaServidores[i])) {
+                    flag = true;
+                }
+            }
+
+            return flag;
+        }
+
+        function validateEmail(email) {
+            let res = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+            return res.test(email);
+        }
+
+        function validate() {
+            let result = $("#result");
+            let email = $("#email").val();
+            result.text("");
+            if (validateEmail(email) && validateDomain(email)) {
+                result.text(email + " is valid");
+                result.css("color", "blue");
+            } else {
+                result.text(email + " is not valid");
+                result.css("color", "red");
+            }
+            return false;
+        }
+
+        $("#validate").on("click", validate);
+
+    </script>
+
+</body>
+
+</html>

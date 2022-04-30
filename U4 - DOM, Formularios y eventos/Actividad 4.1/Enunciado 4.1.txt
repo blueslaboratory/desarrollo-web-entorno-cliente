@@ -1,0 +1,9 @@
+Actividad 1: Empezando con Eventos
+
+Esta tarea consiste en realizar el código necesario para que:
+
+Debe de haber en la pantalla dos botones “Comenzar Saludos” y “Parar Saludos”. Al hacer click en “Comenzar Saludos”, lance un setInterval que cada 5 segundos muestra un “alert” con “Hola”. El botón “Parar Saludos” parará esa secuencia.
+
+Pulsando en cada uno de los botones debe cambiar el fondo a verde si pulsas en Comenzar saludos y a rojo en Parar Saludos. Y que cambie a un color aleatorio si pulsas dos veces en la pantalla del navegador.
+
+Abajo de la pantalla nos muestre la posición actual del ratón sobre la pantalla.

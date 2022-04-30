@@ -1,0 +1,28 @@
+Actividad 1: Utilizando objetos predefinidos
+
+La actividad consiste en realizar las siguientes tareas para comprobar algunos de los objetos predefinidos de JavaScript.
+
+Realiza un programa que reciba una cadena con el siguiente formato:
+
+ “nombre:apellidos:telefono:email:codigopostal:NUMERO”
+
+Tras recibir la cadena, debe desglosar y mostrar la siguiente información:
+
+    Apellidos.
+    Nombre
+    Código postal.
+    Email.
+    Suponiendo un formato de email “direccion@servidor” debe mostrar el nombre del servidor asociado.
+
+Además debe de:
+
+    Comprobar que el NUMERO sea mayor que 1
+    Calcular cuántos números son a la vez primos y palíndromos desde el 1 hasta NUMERO. 
+    Debe guardar todos ellos en un array y al finalizar el proceso imprimir dicho array como cadena con el separador de :. 
+    Calcule la raíz cuadrada del mayor numero primo y palíndromo encontrado y lo redondee al entero mas próximo. 
+    (Esto lo debe hacer pasado un tiempo, setTimeout) 
+
+Otras indicaciones:
+
+    Se debe utilizar la función eval.
+    Se debe de utilizar la conversión de numero a String o viceversa.

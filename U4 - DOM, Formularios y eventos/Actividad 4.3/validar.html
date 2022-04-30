@@ -1,0 +1,46 @@
+<!--
+27/04/2022
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="validar.css">
+    <title>Validando un email sin JQUERY</title>
+</head>
+
+<body>
+    
+    <div class="container">
+        <!--
+        <p>Introduzca un email:</p>
+        <input id='email' placeholder='pepe@terra.es' value='pepe@terra.es'>
+        <button type='submit' id='validate'>Validar</button>
+        -->
+    </div>
+
+    <form method="GET" class="container">
+        <!--
+        Si metemos el codigo en el form, recarga la pagina y apenas se ve
+        la validacion antes de enviar el email, sin embargo en el div de arriba
+        si que se ve
+        -->
+        <p>Introduzca un email:</p>
+        <input id='email' placeholder='pepe@terra.es'>
+        <button type='submit' id='validate'>Validar</button>
+    </form>
+
+    <div id='result'>***</div>
+
+    <!--
+    Hay que ponerlo aqui al final para poder coger los datos que se han puesto arriba
+    -->
+    <script type="text/javascript" src="validar.js"></script>
+
+</body>
+
+</html>

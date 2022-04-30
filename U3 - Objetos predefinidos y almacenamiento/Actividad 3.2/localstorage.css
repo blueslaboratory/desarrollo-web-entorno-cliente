@@ -1,0 +1,40 @@
+/*15/04/2022*/
+
+/* Center child elements */
+body, .website-counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+body {
+  height: 100vh;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+/* Styles for website counter container */
+.website-counter {
+  background-color: #06093d;
+  height: 100px;
+  width: 200px;
+  color: white;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+/* Styles for reset button */
+#reset {
+  margin-top: 40px;
+  background-color: #ba0000;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 8px 70px;
+  color: white;
+  border: 0;
+}
