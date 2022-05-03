@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <style>
+        body{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            background-color: rgb(8, 8, 42);
+        }
+
+        #game-board{
+            background-color: aliceblue;
+            /*coger el alto/ancho mas estrecho al estirar*/
+            width: 100vmin; 
+            height: 100vmin;
+            display: grid;
+            /*Tener 24 cuadraditos sin importar el resize de la ventana, se puede ver en el inspect*/
+            grid-template-rows: repeat(24, 1fr) ;
+            grid-template-columns: repeat(24, 1fr) ;
+        }
+
+        .snake{
+            background-color: cadetblue;
+            /*setteamos el border en f(vmin)*/
+            border: .25vmin solid black;
+        }
+
+        .food{
+            background-color: black;
+            /*setteamos el border en f(vmin)*/
+            border: .25vmin solid black;
+        }
+    </style>
+
+    <!-- 
+    defer: para que cargue despues del body
+    module: para trabajar con distintos archivos JS
+    -->
+    <script src="game.js" defer type="module"></script>
+
+</head>
+
+<body>
+    <div id="game-board"></div>
+</body>
+</html>
